@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MenuCeritaActivity"
+    android:padding="10dp">
+
+    <!--    Recycle View-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_Storylist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/list_pilihan_cerita"/>
+
+<!--    Navigasi kembali ke menu utama-->
+
+</RelativeLayout>
