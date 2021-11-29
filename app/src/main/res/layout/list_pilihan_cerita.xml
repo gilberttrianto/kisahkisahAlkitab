@@ -32,7 +32,8 @@ android:elevation="0dp">
             tools:text="Judul"
             android:textSize="20sp"
             android:textColor="@color/black"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textAlignment="center"/>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

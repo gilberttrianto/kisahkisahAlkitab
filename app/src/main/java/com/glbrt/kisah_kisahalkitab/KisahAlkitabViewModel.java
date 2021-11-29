@@ -13,13 +13,16 @@ import java.util.List;
 public class KisahAlkitabViewModel extends AndroidViewModel {
 
     private AlkitabRespository alkitabRespository;
-//    private final LiveData<List<KisahAlkitab>> kisahAlkitabList;
+    private final LiveData<List<KisahAlkitab>> kisahAlkitabList;
 
-    public KisahAlkitabViewModel(@NonNull Application application) {
+    public KisahAlkitabViewModel(@NonNull Application application, long kategori_id) {
         super(application);
 
-        alkitabRespository = new AlkitabRespository(application);
-//        kisahAlkitabList = alkitabRespository.
+        alkitabRespository = new AlkitabRespository(application, kategori_id);
+        kisahAlkitabList = alkitabRespository.getKisahAlkitabList();
     }
 
+    public LiveData<List<KisahAlkitab>> getKisahAlkitabList() {
+        return kisahAlkitabList;
+    }
 }

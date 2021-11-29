@@ -11,11 +11,14 @@
         android:theme="@style/TemaBackround_Cream">
         <activity
             android:name=".activities.DetailCeritaActivity"
-            android:exported="false" />
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".activities.MenuCeritaActivity"/>
         <activity
             android:name=".activities.MenuCeritaActivity"
             android:exported="true"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="landscape"
+            android:parentActivityName=".activities.MainActivity"/>
         <activity
             android:name=".activities.MainActivity"
             android:exported="true"

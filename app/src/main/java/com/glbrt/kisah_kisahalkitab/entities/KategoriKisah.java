@@ -13,11 +13,15 @@ public class KategoriKisah {
     @ColumnInfo(name = "judul")
     private String judul;
 
+    @ColumnInfo(name = "gambar_judul")
+    private String gambar_judul;
+
     public KategoriKisah() {
     }
 
-    public KategoriKisah(String judul) {
+    public KategoriKisah(String judul, String gambar_judul) {
         this.judul = judul;
+        this.gambar_judul = gambar_judul;
     }
 
     public long getId() {
@@ -34,5 +38,13 @@ public class KategoriKisah {
 
     public void setJudul(String judul) {
         this.judul = judul;
+    }
+
+    public String getGambar_judul() {
+        return gambar_judul;
+    }
+
+    public void setGambar_judul(String gambar_judul) {
+        this.gambar_judul = gambar_judul;
     }
 }

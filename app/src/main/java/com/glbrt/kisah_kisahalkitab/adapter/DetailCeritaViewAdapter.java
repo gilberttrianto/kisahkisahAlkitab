@@ -50,7 +50,7 @@ public class DetailCeritaViewAdapter extends RecyclerView.Adapter<DetailCeritaVi
 
         private TextView tvNarasi;
         private ImageView ivGambar;
-        private SoundPool audio;
+//        private SoundPool audio;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
