@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_page_wide" />
+
+    <Button
+        android:id="@+id/btn_lanjutkan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#F3DB67"
+        android:text="Lanjutkan"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_menu_cerita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/btn_lanjutkan"
+        android:text="Menu Cerita"
+        android:textStyle="bold"
+        android:backgroundTint="#FDA77F"/>
+
+
+
+</RelativeLayout>

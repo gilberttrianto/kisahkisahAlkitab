@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_page"/>
+
     <Button
         android:id="@+id/btn_lanjutkan"
         android:layout_width="wrap_content"
@@ -13,17 +18,18 @@
         android:layout_centerInParent="true"
         android:text="Lanjutkan"
         android:textSize="30sp"
-        android:backgroundTint="#8CFCFC"/>
+        android:backgroundTint="#F3DB67"/>
 
     <Button
         android:id="@+id/btn_menu_cerita"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:gravity="center_vertical"
         android:layout_below="@+id/btn_lanjutkan"
         android:layout_marginTop="20dp"
         android:text="Menu Cerita"
         android:textSize="30sp"
-        android:backgroundTint="#8CFCFC"/>
+        android:backgroundTint="#FDA77F"/>
 
 </RelativeLayout>

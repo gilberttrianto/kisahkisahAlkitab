@@ -6,13 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_page_and" />
+
     <Button
         android:id="@+id/btn_lanjutkan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:backgroundTint="#F3DB67"
         android:text="Lanjutkan"
-        android:backgroundTint="#8CFCFC"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btn_menu_cerita"
@@ -21,7 +27,8 @@
         android:layout_centerInParent="true"
         android:layout_below="@+id/btn_lanjutkan"
         android:text="Menu Cerita"
-        android:backgroundTint="#8CFCFC"/>
+        android:textStyle="bold"
+        android:backgroundTint="#FDA77F"/>
 
 
 
