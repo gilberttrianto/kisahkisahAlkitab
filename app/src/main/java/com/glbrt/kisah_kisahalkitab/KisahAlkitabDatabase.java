@@ -63,12 +63,14 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kategoriKisah = new KategoriKisah("Ular \n di Taman","mc3");
                     kisahAlkitabDao.insertKategoriKisah(kategoriKisah);
 //                    cerita 4
-                    kategoriKisah = new KategoriKisah("Hujan Hujan \n Hujan","k4");
+                    kategoriKisah = new KategoriKisah("Hujan Hujan \n Hujan","mc4");
                     kisahAlkitabDao.insertKategoriKisah(kategoriKisah);
 //                    cerita 5
-                    kategoriKisah = new KategoriKisah("Nabi Musa","k5");
+                    kategoriKisah = new KategoriKisah("Keluarga Nuh \n Diselamatkan","mc5");
                     kisahAlkitabDao.insertKategoriKisah(kategoriKisah);
-
+//                    cerita6
+                    kategoriKisah = new KategoriKisah("Janji Allah \n pada Abram","mc6");
+                    kisahAlkitabDao.insertKategoriKisah(kategoriKisah);
 
 //                    DATA CERITA
 
@@ -115,7 +117,41 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 4
-                    kisahAlkitab = new KisahAlkitab("c32","Ular di Taman \n Kejadian 3:1-24","slide1",4);
+                    kisahAlkitab = new KisahAlkitab("c43","Hujan Hujan Hujan \n Kejadian 6:9-7;16","slide1",4);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c41","Waktu berjalan terus dan orang-orang yang di dunia berbuat jahat, seperti Adam dan Hawa. Hanya Nuh satu-satunya orang baik yang masih tersisa di bumi. Ia mengasihi Allah dan taat padanya.","slide1",4);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c41","Allah memberitahu Nuh bahwa Dia akan membanjiri dunia dengan air. Tetapi Dia berjanji akan menyelamatkan Nuh dan keluarganya dari banjir. Dan Dia akan berjanji akan  menyelamatkan juga sebagian dari hewan di dunia.","slide1",4);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c42","Allah memberi tahu Nuh bagaimana caranya membuat kapal besar yang disebut bahtera untuk menyelamatkan keluarganya dan hewan-hewan maka, Nuh membuat kapal seperti yang diperintahkan Tuhan. Kapal itu mempunyai satu jendela panjang dan satu pintu besar. Nuh mengoleskan ter di luar dan di dalam kapal, supaya tidak bocor.","slide1",4);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c43","Kapal besar itu akhirnya selesai! Allah menyuruh Nuh masuk ke kapal. Jadi, Nuh dan istrinya, tiga anaknya, dan tiga menantunya masuk ke dalam kapal. Lalu Allah menyuruh dua ekor hewan dan setiap jenisnya masuk ke dalam kapal Nuh, seekor hewan jantan dan seekor betina.","slide1",4);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c44","Akhirnya Allah menutup pintu besar itu. Hujan mulai turun. Mulanya gerimis, lalu hujan deras! Air terus bertambah tinggi. Hujan turun selama empat puluh hari dan empat puluh malam. Seluruh dunia tertutup air. Hewan dan orang di dalam kapal selamat. Semua yang lain mati. ","slide1",4);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+
+//                    cerita 5
+                    kisahAlkitab = new KisahAlkitab("c54","Keluarga Nuh Diselamatkan \n Kejadian 7:17-9:29","slide1",5);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c51","Kapal besar, Nuh dan keluarganya selamat dan kering. Kapal itu mengapung diatas air selama 150 hari dan 5 bulan penuh! Allah ingat dengan janji-Nya untuk menyelamatkan Nuh.","slide1",5);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c52","Tik.Tik.Tik… Hujan berhenti turun dari langit, air berhenti membanjiri dari sungai-sungai. Dan Allah membuat angin untuk mengeringkan daratan. Angin itu bertiup dan bertiup! Semua orang dan hewan di kapal merasa senang banjir sudah berlalu.","slide1",5);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c53","Buk!! Suatu hari kapal berhenti mengapung, kapal itu terdampar di puncak gunung. Air mulai surut, beberapa minggu kemudian, daratan di bumi sudah kering. Maka, keluarga Nuh dan semua hewan keluar dari kapal. Itu adalah dunia yang baru dan bersih.","slide1",5);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c54","Allah menyuruh keluarga Nuh dan para hewan untuk mempunyai banyak anak. Lalu Allah berjanji: Ia berfirman, Ia tidak akan pernah menghancurkan bumi dengan air lagi, lalu Ia meletakan pelangi yang indah di langit sebagai tanda perjanjiannya dan sampai hari ini, Allah menepati janjiNya itu.","slide1",5);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+
+//                    cerita 6
+                    kisahAlkitab = new KisahAlkitab("c65","Janji Allah pada Abram \n Kejadian 15:1-17:5","slide1",6);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c61","Abram adalah orang yang sangat baik. Allah sangat sayang kepadanya, tetapi Abram merasa sedih ia sudah tua dan berumur 100 tahun dan ia belum mempunya anak.","slide1",6);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c62","Suatu malam Allah berbicara pada Abram dalam mimpi. Allah berfirman Ia akan melindungi Abram, Ia akan memberikan hadiah besar pada Abram.","slide1",6);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c63","Abram berkata kepada Allah, bahwa ia tidak ingin hadiah, ia tidak ingin punya lebih banyak tanah atau ternak domba atau uang, ia hanya ingin mempunyai anak.","slide1",6);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c64","Lalu Allah membuat Abram terkejut! Ia menyuruh Abram keluar, Allah berfirman ”Lihat ke langit, ada sangat banyak bintang sampai kau tidak bisa menghitungnya, sebanyak itulah anak cucumu nanti!” Kemudian Allah mengganti nama Abram menjadi Abraham, yang artinya ”Bapak dari banyak bangsa”.","slide1",6);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                 }
             });
