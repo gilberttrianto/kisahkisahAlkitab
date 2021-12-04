@@ -4,7 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.viewpager.widget.ViewPager;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 
 import com.glbrt.kisah_kisahalkitab.KategoriKisahViewModel;
 import com.glbrt.kisah_kisahalkitab.KisahAlkitabViewModel;
@@ -32,10 +36,15 @@ public class DetailCeritaActivity extends AppCompatActivity {
     private boolean firstUse = true;
     private long kisah_kategori_id;
 
+    // AUDIO
+    private ImageView btnPlay, btnPause;
+    private MediaPlayer mediaPlayer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_cerita);
+
 
         storyNxtPreference = new StoryNxtPreference(this);
 
@@ -69,7 +78,6 @@ public class DetailCeritaActivity extends AppCompatActivity {
 
         });
 
-
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -85,6 +93,33 @@ public class DetailCeritaActivity extends AppCompatActivity {
             @Override
             public void onPageScrollStateChanged(int state) {
 
+            }
+        });
+
+        btnPause = findViewById(R.id.ibtn_pause);
+        btnPlay = findViewById(R.id.ibtn_play);
+
+        btnPlay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //hide play button
+                btnPlay.setVisibility(View.GONE);
+                //show pause button
+                btnPause.setVisibility(View.VISIBLE);
+                //start media player
+                mediaPlayer.start();
+            }
+        });
+
+        btnPause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //hide pause button
+                btnPause.setVisibility(View.GONE);
+                //show play button
+                btnPlay.setVisibility(View.VISIBLE);
+                //pause media player
+                mediaPlayer.pause();
             }
         });
 
