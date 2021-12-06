@@ -7,6 +7,8 @@
         <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/drawable/ic_launcher_background.xml" value="0.302734375" />
         <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/drawable/ic_pause_circle_24_red.xml" value="0.14375" />
         <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/drawable/ic_play_circle_24_red.xml" value="0.2640625" />
+        <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/drawable/seek_bar_progres.xml" value="0.109765625" />
+        <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/drawable/seek_bar_thumb.xml" value="0.116015625" />
         <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/layout-sw423dp/activity_main.xml" value="0.67" />
         <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/layout-sw440dp-w392dp-h823dp/activity_main.xml" value="0.25222222222222224" />
         <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.2" />
@@ -14,7 +16,7 @@
         <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/layout/activity_detail_cerita.xml" value="0.20694645441389292" />
         <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/layout/activity_menu_cerita.xml" value="0.22" />
-        <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/layout/list_main_cerita.xml" value="0.1765625" />
+        <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/layout/list_main_cerita.xml" value="0.25" />
         <entry key="..\:/Materi/Pemprograman Aplikasi Bergerak 2/KisahKisahAlkitab/app/src/main/res/layout/list_pilihan_cerita.xml" value="0.25" />
       </map>
     </option>

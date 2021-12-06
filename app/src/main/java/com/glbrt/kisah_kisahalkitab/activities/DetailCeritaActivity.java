@@ -37,14 +37,13 @@ public class DetailCeritaActivity extends AppCompatActivity {
     private long kisah_kategori_id;
 
     // AUDIO
-    private ImageView btnPlay, btnPause;
-    private MediaPlayer mediaPlayer;
+//    private ImageView btnPlay, btnPause;
+//    private MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_cerita);
-
 
         storyNxtPreference = new StoryNxtPreference(this);
 
@@ -96,32 +95,17 @@ public class DetailCeritaActivity extends AppCompatActivity {
             }
         });
 
-        btnPause = findViewById(R.id.ibtn_pause);
-        btnPlay = findViewById(R.id.ibtn_play);
-
-        btnPlay.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //hide play button
-                btnPlay.setVisibility(View.GONE);
-                //show pause button
-                btnPause.setVisibility(View.VISIBLE);
-                //start media player
-                mediaPlayer.start();
-            }
-        });
-
-        btnPause.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //hide pause button
-                btnPause.setVisibility(View.GONE);
-                //show play button
-                btnPlay.setVisibility(View.VISIBLE);
-                //pause media player
-                mediaPlayer.pause();
-            }
-        });
+//        btnPause.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                //hide pause button
+//                btnPause.setVisibility(View.GONE);
+//                //show play button
+//                btnPlay.setVisibility(View.VISIBLE);
+//                //pause media player
+//                mediaPlayer.pause();
+//            }
+//        });
 
     }
 
