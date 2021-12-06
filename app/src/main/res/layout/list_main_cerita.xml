@@ -41,94 +41,96 @@
             android:layout_marginEnd="10dp"
             android:textAlignment="center"
             android:textSize="20sp"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="narasi"/>
+            tools:text="narasi" />
 
-        <LinearLayout
-            android:id="@+id/linearLayout"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
+<!--        app:layout_constraintBottom_toTopOf="@+id/linearLayout"-->
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                android:paddingLeft="15dp">
+<!--        <LinearLayout-->
+<!--            android:id="@+id/linearLayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent">-->
 
-                <ImageView
-                    android:id="@+id/ibtn_play"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_play_circle_24_red"/>
+<!--            <RelativeLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                android:paddingLeft="15dp">-->
 
-                <ImageView
-                    android:id="@+id/ibtn_pause"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:visibility="gone"
-                    android:src="@drawable/ic_pause_circle_24_red"/>
+<!--                <ImageView-->
+<!--                    android:id="@+id/ibtn_play"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:src="@drawable/ic_play_circle_24_red"/>-->
 
-            </RelativeLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/ibtn_pause"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:visibility="gone"-->
+<!--                    android:src="@drawable/ic_pause_circle_24_red"/>-->
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+<!--            </RelativeLayout>-->
 
-                <SeekBar
-                    android:id="@+id/sk_bar"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@android:color/transparent"
-                    android:max="100"
-                    android:maxHeight="8dp"
-                    android:minHeight="8dp"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:progress="60"
-                    android:progressDrawable="@drawable/seek_bar_progres"
-                    android:secondaryProgress="0"
-                    android:splitTrack="false"
-                    android:thumb="@drawable/seek_bar_thumb" />
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+<!--                <SeekBar-->
+<!--                    android:id="@+id/sk_bar"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@android:color/transparent"-->
+<!--                    android:max="100"-->
+<!--                    android:maxHeight="8dp"-->
+<!--                    android:minHeight="8dp"-->
+<!--                    android:paddingTop="8dp"-->
+<!--                    android:paddingBottom="8dp"-->
+<!--                    android:progress="60"-->
+<!--                    android:progressDrawable="@drawable/seek_bar_progres"-->
+<!--                    android:secondaryProgress="0"-->
+<!--                    android:splitTrack="false"-->
+<!--                    android:thumb="@drawable/seek_bar_thumb" />-->
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/player_position"
-                        android:text="00:00"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:paddingRight="10dp"/>
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal">-->
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/player_duration"
-                        android:text="00:00"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"/>
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/player_position"-->
+<!--                        android:text="00:00"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:paddingRight="10dp"/>-->
 
-                </LinearLayout>
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/player_duration"-->
+<!--                        android:text="00:00"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textColor="@color/black"/>-->
 
-            </LinearLayout>
+<!--                </LinearLayout>-->
 
-        </LinearLayout>
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

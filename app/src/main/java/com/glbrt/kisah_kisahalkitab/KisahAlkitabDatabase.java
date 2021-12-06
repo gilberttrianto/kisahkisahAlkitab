@@ -75,17 +75,17 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
 //                    DATA CERITA
 
 //                    Cerita 1
-                    KisahAlkitab kisahAlkitab = new KisahAlkitab("c15","Tuhan Menciptakan Langit dan Bumi \n Kejadian 1:1","slide1",1);
+                    KisahAlkitab kisahAlkitab = new KisahAlkitab("c15","Tuhan Menciptakan Langit dan Bumi \n Kejadian 1:1","ac11",1);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("k1","Pada hari pertama, Allah menciptakan langit dan bumi, dan Allah menciptakan terang dan gelap lalu memisahkan yang terang dari pada yang gelap karena terang itu baik maka Allah menciptakan langit dan bumi beserta terang dan gelap.","slide2",1);
+                    kisahAlkitab = new KisahAlkitab("k1","Pada hari pertama, Allah menciptakan langit dan bumi, dan Allah menciptakan terang dan gelap lalu memisahkan yang terang dari pada yang gelap karena terang itu baik maka Allah menciptakan langit dan bumi beserta terang dan gelap.","ac11",1);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c12","Pada hari kedua, Allah membuat udara. Kita menyebutnya langit-langit adalah ruang yang sangat besar dan tinggi dan lebar. Sampai tidak ada batasnya.","slide2",1);
+                    kisahAlkitab = new KisahAlkitab("c12","Pada hari kedua, Allah membuat udara. Kita menyebutnya langit-langit adalah ruang yang sangat besar dan tinggi dan lebar. Sampai tidak ada batasnya.","ac12",1);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c13","Hal yang sangat indah terjadi pada hari yang ketiga! Allah membuat sungai-sungai yang jernih dan laut-laut yang biru. Ia menanam gandum yang keemasan, pohon apel, dan pohon anggur. Lalu ia tersenyum, karena semuanya benar-benar sangat baik.","slide2",1);
+                    kisahAlkitab = new KisahAlkitab("c13","Hal yang sangat indah terjadi pada hari yang ketiga! Allah membuat sungai-sungai yang jernih dan laut-laut yang biru. Ia menanam gandum yang keemasan, pohon apel, dan pohon anggur. Lalu ia tersenyum, karena semuanya benar-benar sangat baik.","ac13",1);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c14","Hari Keempat juga seru! Allah memasang matahari yang besar dan hangat dilangit siang dan ia memasang bulan yang keperakan dan bintang yang berkelap kelip dilangit malam sebagai penerang dunia.","slide3",1);
+                    kisahAlkitab = new KisahAlkitab("c14","Hari Keempat juga seru! Allah memasang matahari yang besar dan hangat dilangit siang dan ia memasang bulan yang keperakan dan bintang yang berkelap kelip dilangit malam sebagai penerang dunia.","ac14",1);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c15","Hari kelima, Allah menciptakan berbagai macam macam ikan dan burung. Ia juga membuat ikan pari yang bersayap lebar, ikan cucut yang mempunyai pedang dan gurita yang bertangan banyak. Ia membuat burung nuri, burung cendrawasih dan itik yang berenang dan berkuak. Itu adalah hari yang indah!","slide4",1);
+                    kisahAlkitab = new KisahAlkitab("c15","Hari kelima, Allah menciptakan berbagai macam macam ikan dan burung. Ia juga membuat ikan pari yang bersayap lebar, ikan cucut yang mempunyai pedang dan gurita yang bertangan banyak. Ia membuat burung nuri, burung cendrawasih dan itik yang berenang dan berkuak. Itu adalah hari yang indah!","ac15",1);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    Cerita 2
