@@ -121,13 +121,13 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c41","Waktu berjalan terus dan orang-orang yang di dunia berbuat jahat, seperti Adam dan Hawa. Hanya Nuh satu-satunya orang baik yang masih tersisa di bumi. Ia mengasihi Allah dan taat padanya.","slide1",4);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c41","Allah memberitahu Nuh bahwa Dia akan membanjiri dunia dengan air. Tetapi Dia berjanji akan menyelamatkan Nuh dan keluarganya dari banjir. Dan Dia akan berjanji akan  menyelamatkan juga sebagian dari hewan di dunia.","slide1",4);
+                    kisahAlkitab = new KisahAlkitab("c42","Allah memberitahu Nuh bahwa Dia akan membanjiri dunia dengan air. Tetapi Dia berjanji akan menyelamatkan Nuh dan keluarganya dari banjir. Dan Dia akan berjanji akan  menyelamatkan juga sebagian dari hewan di dunia.","slide1",4);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c42","Allah memberi tahu Nuh bagaimana caranya membuat kapal besar yang disebut bahtera untuk menyelamatkan keluarganya dan hewan-hewan maka, Nuh membuat kapal seperti yang diperintahkan Tuhan. Kapal itu mempunyai satu jendela panjang dan satu pintu besar. Nuh mengoleskan ter di luar dan di dalam kapal, supaya tidak bocor.","slide1",4);
+                    kisahAlkitab = new KisahAlkitab("c43","Allah memberi tahu Nuh bagaimana caranya membuat kapal besar yang disebut bahtera untuk menyelamatkan keluarganya dan hewan-hewan maka, Nuh membuat kapal seperti yang diperintahkan Tuhan. Kapal itu mempunyai satu jendela panjang dan satu pintu besar. Nuh mengoleskan ter di luar dan di dalam kapal, supaya tidak bocor.","slide1",4);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c43","Kapal besar itu akhirnya selesai! Allah menyuruh Nuh masuk ke kapal. Jadi, Nuh dan istrinya, tiga anaknya, dan tiga menantunya masuk ke dalam kapal. Lalu Allah menyuruh dua ekor hewan dan setiap jenisnya masuk ke dalam kapal Nuh, seekor hewan jantan dan seekor betina.","slide1",4);
+                    kisahAlkitab = new KisahAlkitab("c44","Kapal besar itu akhirnya selesai! Allah menyuruh Nuh masuk ke kapal. Jadi, Nuh dan istrinya, tiga anaknya, dan tiga menantunya masuk ke dalam kapal. Lalu Allah menyuruh dua ekor hewan dan setiap jenisnya masuk ke dalam kapal Nuh, seekor hewan jantan dan seekor betina.","slide1",4);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c44","Akhirnya Allah menutup pintu besar itu. Hujan mulai turun. Mulanya gerimis, lalu hujan deras! Air terus bertambah tinggi. Hujan turun selama empat puluh hari dan empat puluh malam. Seluruh dunia tertutup air. Hewan dan orang di dalam kapal selamat. Semua yang lain mati. ","slide1",4);
+                    kisahAlkitab = new KisahAlkitab("c45","Akhirnya Allah menutup pintu besar itu. Hujan mulai turun. Mulanya gerimis, lalu hujan deras! Air terus bertambah tinggi. Hujan turun selama empat puluh hari dan empat puluh malam. Seluruh dunia tertutup air. Hewan dan orang di dalam kapal selamat. Semua yang lain mati. ","slide1",4);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 5
