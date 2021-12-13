@@ -1,26 +1,26 @@
 <resources>
-    <string name="app_name">Kisah-Kisah Alkitab</string>
+    <string name="app_name">Kisah-Kisah Alkitab GSJA KK</string>
 
-    <string-array name="judul_kisah">
-        <item>Kisah 1</item>
-        <item>Kisah 2</item>
-        <item>Kisah 3</item>
-        <item>Kisah 4</item>
-        <item>Kisah 5</item>
-        <item>Kisah 6</item>
-        <item>Kisah 7</item>
-        <item>Kisah 8</item>
-    </string-array>
+<!--    <string-array name="judul_kisah">-->
+<!--        <item>Kisah 1</item>-->
+<!--        <item>Kisah 2</item>-->
+<!--        <item>Kisah 3</item>-->
+<!--        <item>Kisah 4</item>-->
+<!--        <item>Kisah 5</item>-->
+<!--        <item>Kisah 6</item>-->
+<!--        <item>Kisah 7</item>-->
+<!--        <item>Kisah 8</item>-->
+<!--    </string-array>-->
 
-    <string-array name="gambar_kisah">
-        <item>@drawable/k3</item>
-        <item>@drawable/k3</item>
-        <item>@drawable/k3</item>
-        <item>@drawable/k6</item>
-        <item>@drawable/k6</item>
-        <item>@drawable/k6</item>
-        <item>@drawable/k8</item>
-        <item>@drawable/k8</item>
-    </string-array>
+<!--    <string-array name="gambar_kisah">-->
+<!--        <item>@drawable/k3</item>-->
+<!--        <item>@drawable/k3</item>-->
+<!--        <item>@drawable/k3</item>-->
+<!--        <item>@drawable/k6</item>-->
+<!--        <item>@drawable/k6</item>-->
+<!--        <item>@drawable/k6</item>-->
+<!--        <item>@drawable/k8</item>-->
+<!--        <item>@drawable/k8</item>-->
+<!--    </string-array>-->
 
 </resources>

@@ -72,7 +72,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kategoriKisah = new KategoriKisah("Janji Allah \n pada Abram","mc6");
                     kisahAlkitabDao.insertKategoriKisah(kategoriKisah);
 //                    cerita7
-                    kategoriKisah = new KategoriKisah("Ishak Anak dan Pengorbanan","mc7");
+                    kategoriKisah = new KategoriKisah("Ishak Anak \n dan Pengorbanan","mc7");
                     kisahAlkitabDao.insertKategoriKisah(kategoriKisah);
 //                    cerita8
                     kategoriKisah = new KategoriKisah("Yakub \n Menipu Esau ","mc8");
@@ -210,7 +210,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
 //                    DATA CERITA
 
 //                    Cerita 1
-                    KisahAlkitab kisahAlkitab = new KisahAlkitab("c15","Tuhan Menciptakan Langit dan Bumi \n Kejadian 1:1","ac15",1);
+                    KisahAlkitab kisahAlkitab = new KisahAlkitab("c15","Tuhan Menciptakan Langit dan Bumi \n Kejadian 1:1-23","jc1",1);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c11","Pada hari pertama, Allah menciptakan langit dan bumi, dan Allah menciptakan terang dan gelap lalu memisahkan yang terang dari pada yang gelap karena terang itu baik maka Allah menciptakan langit dan bumi beserta terang dan gelap.","ac11",1);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -224,7 +224,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    Cerita 2
-                    kisahAlkitab = new KisahAlkitab("c25","Allah Menciptakan Manusia \n Kejadian 1:24-31","slide1",2);
+                    kisahAlkitab = new KisahAlkitab("c23","Allah Menciptakan Manusia \n Kejadian 1:24-31","jc2",2);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c21","Allah bekerja keras pada hari keenam untuk menciptakan hewan menciptakan anjing yang lucu, kucing yang imut dan kangguru. Ia menciptakan kelinci berbulu lembut, landak  berduri, gajah yang besar dan tikus yang kecil.","ac21",2);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -236,7 +236,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 3
-                    kisahAlkitab = new KisahAlkitab("c32","Ular di Taman \n Kejadian 3:1-24","slide1",3);
+                    kisahAlkitab = new KisahAlkitab("c32","Ular di Taman \n Kejadian 3:1-24","jc3",3);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c31","Allah membiarkan Adam dan Hawa tinggal di taman indah bernama Eden. Pada sore hari, Allah akan datang dan berjalan-jalan di taman. Adam dan Hawa bisa berbicara pada Allah. Ia adalah sahabat mereka.","ac31",3);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -252,7 +252,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 4
-                    kisahAlkitab = new KisahAlkitab("c43","Hujan Hujan Hujan \n Kejadian 6:9-7;16","slide1",4);
+                    kisahAlkitab = new KisahAlkitab("c43","Hujan Hujan Hujan \n Kejadian 6:9-7;16","jc4",4);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c41","Waktu berjalan terus dan orang-orang yang di dunia berbuat jahat, seperti Adam dan Hawa. Hanya Nuh satu-satunya orang baik yang masih tersisa di bumi. Ia mengasihi Allah dan taat padanya.","ac41",4);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -266,7 +266,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 5
-                    kisahAlkitab = new KisahAlkitab("c54","Keluarga Nuh Diselamatkan \n Kejadian 7:17-9:29","slide1",5);
+                    kisahAlkitab = new KisahAlkitab("c54","Keluarga Nuh Diselamatkan \n Kejadian 7:17-9:29","jc5",5);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c51","Kapal besar, Nuh dan keluarganya selamat dan kering. Kapal itu mengapung diatas air selama 150 hari dan 5 bulan penuh! Allah ingat dengan janji-Nya untuk menyelamatkan Nuh.","ac51",5);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -278,7 +278,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 6
-                    kisahAlkitab = new KisahAlkitab("c65","Janji Allah pada Abram \n Kejadian 15:1-17:5","ac61",6);
+                    kisahAlkitab = new KisahAlkitab("c65","Janji Allah pada Abram \n Kejadian 15:1-17:5","jc6",6);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c61","Abram adalah orang yang sangat baik. Allah sangat sayang kepadanya, tetapi Abram merasa sedih ia sudah tua dan berumur 100 tahun dan ia belum mempunya anak.","ac61",6);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -290,7 +290,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 7
-                    kisahAlkitab = new KisahAlkitab("c74","Ishak -Anak dan Pengorbanan \n Kejadian 21:1-5; 22:1-18","slide1",7);
+                    kisahAlkitab = new KisahAlkitab("c74","Ishak -Anak dan Pengorbanan \n Kejadian 21:1-5; 22:1-18","jc7",7);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c71","Abram adalah orang yang sangat baik. Allah sangat sayang kepadanya, tetapi Abram merasa sedih ia sudah tua dan berumur 100 tahun dan ia belum mempunya anak.","ac71",7);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -302,7 +302,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 8
-                    kisahAlkitab = new KisahAlkitab("c84","Yakub Menipu Esau \n Kejadian 25:29-34","slide1",8);
+                    kisahAlkitab = new KisahAlkitab("c84","Yakub Menipu Esau \n Kejadian 25:29-34","jc8",8);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c81","Suatu Hari anak bungsu Ishak, Yakub membuat sepanci sup kacang. Kakaknya, Esau baru saja pulang dari berburu dan ia lapar sekali.","ac81",8);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -314,7 +314,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 9
-                    kisahAlkitab = new KisahAlkitab("c95","Kisah Yusuf\n Kejadian 37-45","slide1",9);
+                    kisahAlkitab = new KisahAlkitab("c95","Kisah Yusuf\n Kejadian 37-45","jc9",9);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c91","Yakub mempunyai dua belas anak laki-laki tapi Yusuf adalah anak kesayangannya. Ia memberikan jubah indah pada Yusuf, ini membuat saudara-saudara Yusuf yang lain marah. Mereka menjual Yusuf kepada pedagang budak yang pergi ke Mesir","ac91",9);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -328,7 +328,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 10
-                    kisahAlkitab = new KisahAlkitab("c102","Musa Lahir\n Keluaran 2:1-10","slide1",10);
+                    kisahAlkitab = new KisahAlkitab("c102","Musa Lahir\n Keluaran 2:1-10","jc10",10);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c101","Yusuf tinggal di Mesir selama puluhan tahun lalu ia meninggal. Bertahun-tahun kemudian datanglah seorang raja baru yang memerintah Mesir. Ia tidak ingat perbuatan baik Yusuf bagi Mesir dan Ia memperlakukan bangsa keturunan Yusuf, bangsa Israel seperti budak. Ia menyuruh mereka bekerja, bekerja, bekerja!!!!","ac101",10);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -344,7 +344,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 11
-                    kisahAlkitab = new KisahAlkitab("c111","Semak Menyala\n Keluaran 3:1-4:17","slide1",11);
+                    kisahAlkitab = new KisahAlkitab("c111","Semak Menyala\n Keluaran 3:1-4:17","jc11",11);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c112","Setelah dewasa, Musa pergi dari Mesir. Suatu hari ia sedang menggembalakan domba. “Wow! Apa itu???” Musa melihat ada semak yang menyala ditengah api, tetapi semak itu tidak terbakar.","ac111",11);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -356,7 +356,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 12
-                    kisahAlkitab = new KisahAlkitab("c124","Berjalan di Tengah Laut\n Keluaran 14:10-31","slide1",12);
+                    kisahAlkitab = new KisahAlkitab("c124","Berjalan di Tengah Laut\n Keluaran 14:10-31","jc12",12);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c121","Musa dan Harun memimpin bangsa Israel keluar dari Mesir tetapi pasukan Mesir mengejar mereka, pasukan itu mengejar umat Allah melintasi gurun.","ac121",12);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -370,7 +370,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 13
-                    kisahAlkitab = new KisahAlkitab("c134","Musa Berbicara pada Allah\n Keluaran 19:11-20:21","slide1",13);
+                    kisahAlkitab = new KisahAlkitab("c134","Musa Berbicara pada Allah\n Keluaran 19:11-20:21","jc13",13);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c131","Tiga bulan kemudian, bangsa Israel tiba di gunung bernama Sinai, mereka berkemah di gurun dekat gunung itu.","ac131",13);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -378,22 +378,24 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c133","Allah mengasihi bangsa Israel dan Ia telah memilih mereka untuk tugas yang sangat istimewa, Allah memberi Musa sepuluh perintah bijaksana untuk diikuti bangsa itu dan perintah ini akan membantu mereka hidup dengan baik.","ac133",13);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c134","Allah menulis sepuluh perintah itu di lempengan batu dengan jari-Nya sendiri dan Musa membawanya turun gunung pada bangsa Israel. Lalu Musa membacakan sepuluh perintah itu pada umat Allah."
-                            + "\nSepuluh Perintah Allah:" +
+                    kisahAlkitab = new KisahAlkitab("c134","Allah menulis sepuluh perintah itu di lempengan batu dengan jari-Nya sendiri dan Musa membawanya turun gunung pada bangsa Israel. Lalu Musa membacakan sepuluh perintah itu pada umat Allah.","ac134",13);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c134","Sepuluh Perintah Allah:" +
                             "\n1.	Akulah TUHAN, Allahmu, Jangan menyembah berhala, berbaktilah kepada-Ku saja, dan cintailah Aku lebih dari segala sesuatu." +
                             "\n2.	Jangan menyebut Nama TUHAN Allahmu dengan tidak hormat." +
                             "\n3.	Kuduskanlah hari TUHAN." +
                             "\n4.	Hormatilah ibu-bapamu." +
-                            "\n5.	Jangan membunuh." +
-                            "\n6.	Jangan berzinah." +
+                            "\n5.	Jangan membunuh.","ac135a",13);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c134","6.	Jangan berzinah." +
                             "\n7.	Jangan mencuri." +
                             "\n8.	Jangan bersaksi dusta tentang sesamamu." +
                             "\n9.	Jangan mengingini istri sesamamu." +
-                            "\n10. Jangan mengingini milik sesamamu secara tidak adil.","ac134",13);
+                            "\n10. Jangan mengingini milik sesamamu secara tidak adil.","ac135b",13);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 14
-                    kisahAlkitab = new KisahAlkitab("c144","Dinding Yerikho Roboh \n Yosua 6 ","slide1",14);
+                    kisahAlkitab = new KisahAlkitab("c144","Dinding Yerikho Roboh \n Yosua 6 ","jc14",14);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c141","Baris ayo baris!!! Seru Yosua pada pasukan Israel, mereka akan mengalahkan Yerikho. Allah telah berjanji pada Yosua mereka akan memenangkan pertempuran itu.","ac141",14);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -407,7 +409,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 15
-                    kisahAlkitab = new KisahAlkitab("c153","Simson, Orang Terkuat\n Hakim-hakim 13:24;16","slide1",15);
+                    kisahAlkitab = new KisahAlkitab("c153","Simson, Orang Terkuat\n Hakim-hakim 13:24;16","jc15",15);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c151","Hakim umat Allah yang lain adalah Simson, Allah melarang Simson untuk memotong rambutnya, selama Simson taat, Allah akan membuatnya kuat. Ia adalah orang terkuat di seluruh dunia!","ac151",15);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -421,7 +423,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 16
-                    kisahAlkitab = new KisahAlkitab("c163","Allah Mendengar Doa Hana\n 1 Samuel 1:1-2:11","slide1",16);
+                    kisahAlkitab = new KisahAlkitab("c163","Allah Mendengar Doa Hana\n 1 Samuel 1:1-2:11","jc16",16);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c161","Hana sangat sedih, ia ingin punya bayi laki-laki tetapi Allah berkata belum menjawab doa nya. Suatu hari, di kemah suci Allah Hana menangis dan berdoa ia berjanji pada Allah kalau Allah memberinya seorang anak laki-laki ia akan mengembalikan anak itu pada Tuhan untuk melayani Tuhan seumur hidupnya.","ac161",16);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -433,7 +435,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 17
-                    kisahAlkitab = new KisahAlkitab("c173","Saul Menjadi Raja\n 1 Samuel 9:15-10:24","slide1",17);
+                    kisahAlkitab = new KisahAlkitab("c173","Saul Menjadi Raja\n 1 Samuel 9:15-10:24","jc17",17);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c171","Allah selalu memelihara umat-Nya, Israel. Tapi israel menginginkan seorang raja. Mereka ingin seperti bangsa-bangsa lain di sekeliling mereka.","ac171",17);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -447,7 +449,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 18
-                    kisahAlkitab = new KisahAlkitab("c185","Daud dan Raksasa\n 1 Samuel 17","slide1",18);
+                    kisahAlkitab = new KisahAlkitab("c185","Daud dan Raksasa\n 1 Samuel 17","jc18",18);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c181","Pasukan Israel ada di satu bukit. Musuh mereka bangsa Filistin ada di bukit lain, sebuah lembah besar memisahkan mereka. Musuh mereka mempunyai seorang raksasa di dalam pasukannya yang bernama Goliat tingginya hampir tiga meter!","ac181",18);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -461,7 +463,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 19
-                    kisahAlkitab = new KisahAlkitab("c196","Bait Allah\n1 1 Raja-raja 5-6","slide1",19);
+                    kisahAlkitab = new KisahAlkitab("c196","Bait Allah\n1 1 Raja-raja 5-6","jc19",19);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c191","Akhirnya bangsa Israel hidup dengan damai, perang sudah berlalu. Putra Daud, Salomo sekarang sudah menjadi Raja Israel. Allah telah berjanji kepada Daud bahwa Salomo boleh membangun Bait Allah dan ini adalah bangunan di mana umat Allah bisa menyembahnya.","ac191",19);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -475,7 +477,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 20
-                    kisahAlkitab = new KisahAlkitab("c204","Salomo, Raja yang Bijaksana\n 1 Raja-raja 10:1-10","slide1",20);
+                    kisahAlkitab = new KisahAlkitab("c204","Salomo, Raja yang Bijaksana\n 1 Raja-raja 10:1-10","jc20",20);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c201","Allah membuat Raja Salomo sebagai orang paling kaya dan bijaksana di seluruh dunia dan ia sangat terkenal.","ac201",20);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -487,7 +489,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 21
-                    kisahAlkitab = new KisahAlkitab("c213","Elia Naik Kereta Berapi\n 2 Raja-raja 2:1-15","slide1",21);
+                    kisahAlkitab = new KisahAlkitab("c213","Elia Naik Kereta Berapi\n 2 Raja-raja 2:1-15","jc21",21);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c211","Elia adalah nabi besar untuk Tuhan dan sekarang sudah waktunya bagi Tuhan untuk membawa Elia ke sorga. Elisa adalah pembantu Elia mereka berjalan ke sungai Yordan bersama-sama.","ac211",21);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -501,7 +503,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 22
-                    kisahAlkitab = new KisahAlkitab("c225","Lagu Gembala\n Mazmur 23","slide1",22);
+                    kisahAlkitab = new KisahAlkitab("c225","Lagu Gembala\n Mazmur 23","jc22",22);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c221","Ini adalah salah satu lagu yang ditulis oleh Daud. Ia mungkin menyanyikan lagu ini pada Raja Saul.","ac221",22);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -515,7 +517,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 23
-                    kisahAlkitab = new KisahAlkitab("c234","Tiga Orang di Tengah Api\n Daniel 3:1-30","slide1",23);
+                    kisahAlkitab = new KisahAlkitab("c234","Tiga Orang di Tengah Api\n Daniel 3:1-30","jc23",23);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c231","Bangsa Yehuda ditawan sebagai budak di Babilonia dan raja Babilonia tidak mengenal Tuhan, ia membangun patung emas besar untuk disembah orang, ketika musik berbunyi semua orang harus menyembah pada patung dan kalau mereka tidak menyembah mereka akan dilemparkan ke perapian yang besar.","ac231",23);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -529,7 +531,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
 //                    cerita 24
-                    kisahAlkitab = new KisahAlkitab("c244","Daniel di Goa Singa\n Daniel 6:1-28","slide1",24);
+                    kisahAlkitab = new KisahAlkitab("c244","Daniel di Goa Singa\n Daniel 6:1-28","jc24",24);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c241","Daniel adalah salah seorang bangsa Yehuda di Babilonia dan ia adalah orang penting di bawah pemerintahan Raja Darius. Raja sangat menyukai Daniel karena Daniel rajin dan jujur.","ac241",24);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -543,7 +545,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 25
-                    kisahAlkitab = new KisahAlkitab("c254","Yunus Lari dari Tuhan\n Yunus 1-4","slide1",25);
+                    kisahAlkitab = new KisahAlkitab("c254","Yunus Lari dari Tuhan\n Yunus 1-4","jc25",25);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c251","Yunus adalah seorang nabi. Ia adalah salah satu juru bicara Tuhan, Allah berkata kepada Yunus ”Pergilah mengingatkan penduduk Niniwe, mereka telah melakukan hal-hal jahat”","ac251",25);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -557,7 +559,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 26
-                    kisahAlkitab = new KisahAlkitab("c263","Maria dan Malaikat\n Lukas 1:26-38","slide1",26);
+                    kisahAlkitab = new KisahAlkitab("c263","Maria dan Malaikat\n Lukas 1:26-38","jc26",26);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c261","Maria adalah seorang gadis Yahudi ia baik hati dan belum menikah namun di suatu hari seorang malaikat bernama Gabriel datang untuk menemui Maria. Maria merasa takut. Gabriel berkata ”Jangan takut, Maria. Allah telah memilihmu untuk tugas istimewa!","ac261",26);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -567,7 +569,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 27
-                    kisahAlkitab = new KisahAlkitab("c274","Yesus Lahir\n Lukas 2 :1-7,","slide1",27);
+                    kisahAlkitab = new KisahAlkitab("c274","Yesus Lahir\n Lukas 2 :1-7,","jc27",27);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c271","Pada zaman itu bangsa Yahudi diperintah oleh bangsa Romawi, penguasa Romawi Kaisar Agustus membuat peraturan baru ia berkata semua orang harus mendaftarkan diri dari kampung halamannya masing-masing.","ac271",27);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -579,7 +581,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 28
-                    kisahAlkitab = new KisahAlkitab("c286","Gembala Mengunjungi Bayi Yesus\n Lukas 2:8-20","slide1",28);
+                    kisahAlkitab = new KisahAlkitab("c286","Gembala Mengunjungi Bayi Yesus\n Lukas 2:8-20","jc28",28);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c281","Pada malam kelahiran Yesus beberapa gembala mendapat kejutan dan mereka sedang menjaga domba di padang rumput dekat sana. Tiba-tiba seorang malaikat Tuhan muncul dan para gembala itu sangat ketakutan.","ac281",28);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -595,25 +597,25 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 29
-                    kisahAlkitab = new KisahAlkitab("c294","Orang Majus Membawa Hadiah\n Matius 2:1-12","slide1",27);
+                    kisahAlkitab = new KisahAlkitab("c294","Orang Majus Membawa Hadiah\n Matius 2:1-12","jc29",29);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c291","Ketika Yesus lahir, Allah memasang bintang baru di langit. Bintang itu menunjukan bahwa Anak Allah telah lahir. Ia akan menjadi Raja seluruh dunia.","ac291",27);
+                    kisahAlkitab = new KisahAlkitab("c291","Ketika Yesus lahir, Allah memasang bintang baru di langit. Bintang itu menunjukan bahwa Anak Allah telah lahir. Ia akan menjadi Raja seluruh dunia.","ac291",29);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c292","Beberapa orang majus melihat bintang itu dan mereka adalah orang-orang bijaksana yang tinggal di timur, orang-orang majus mengikuti bintang baru itu sampai ke Yerusalem dan mereka ingin melihat sang bayi yang akan menjadi raja dan perjalanan itu memakan waktu yang lama.","ac292",27);
+                    kisahAlkitab = new KisahAlkitab("c292","Beberapa orang majus melihat bintang itu dan mereka adalah orang-orang bijaksana yang tinggal di timur, orang-orang majus mengikuti bintang baru itu sampai ke Yerusalem dan mereka ingin melihat sang bayi yang akan menjadi raja dan perjalanan itu memakan waktu yang lama.","ac292",29);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c293","Pada saat itu Herodes menjadi raja dan orang-orang majus ke tempat Herodes untuk bertanya ”Dimana bayi yang baru lahir dan akan menjadi raja orang Yahudi itu? Kami melihat bintangNya di timur. Kami datang untuk menyembah Dia","ac293",27);
+                    kisahAlkitab = new KisahAlkitab("c293","Pada saat itu Herodes menjadi raja dan orang-orang majus ke tempat Herodes untuk bertanya ”Dimana bayi yang baru lahir dan akan menjadi raja orang Yahudi itu? Kami melihat bintangNya di timur. Kami datang untuk menyembah Dia","ac293",29);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c294","Ketika Herodes mendengar ada raja baru orang Yahudi, ia menjadi cemas dan ia mengira raja baru ini akan mengambil tahtanya. Ia memanggil semua imam dan ahli kitab suci untuk membantunya. Mereka berkata “Kristus lahir di Betlehem","ac294",27);
+                    kisahAlkitab = new KisahAlkitab("c294","Ketika Herodes mendengar ada raja baru orang Yahudi, ia menjadi cemas dan ia mengira raja baru ini akan mengambil tahtanya. Ia memanggil semua imam dan ahli kitab suci untuk membantunya. Mereka berkata “Kristus lahir di Betlehem","ac294",29);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c295","Kemudian Herodes menemui orang-orang majus, ia berkata ”Pergilah ke Betlehem dan cari Anak itu, kalau sudah kalian temukan dan kembalilah ke sini dan beritahu aku. Aku ingin menyembah Dia juga” Tapi ketika mereka pergi, orang-orang majus mengikuti bintang baru itu lagi.","ac295",27);
+                    kisahAlkitab = new KisahAlkitab("c295","Kemudian Herodes menemui orang-orang majus, ia berkata ”Pergilah ke Betlehem dan cari Anak itu, kalau sudah kalian temukan dan kembalilah ke sini dan beritahu aku. Aku ingin menyembah Dia juga” Tapi ketika mereka pergi, orang-orang majus mengikuti bintang baru itu lagi.","ac295",29);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c296","Bintang itu menuntun orang-orang majus ke tempat Yesus. Mereka sangat gembira! Mereka memberikan hadiah istimewa untuk Yesus, yaitu mur dan kemenyan dan mereka juga memberikan emas. Mereka berlutut dan menyembah Yesus.","ac296",27);
+                    kisahAlkitab = new KisahAlkitab("c296","Bintang itu menuntun orang-orang majus ke tempat Yesus. Mereka sangat gembira! Mereka memberikan hadiah istimewa untuk Yesus, yaitu mur dan kemenyan dan mereka juga memberikan emas. Mereka berlutut dan menyembah Yesus.","ac296",29);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c297","Ketika orang-orang majus pergi, Allah berbicara pada mereka dalam mimpi dan ia melarang mereka kembali pada Herodes. Herodes ingin membunuh Yesus dan orang-orang majus pulang ke negara mereka lewat jalan lain.","ac297",27);
+                    kisahAlkitab = new KisahAlkitab("c297","Ketika orang-orang majus pergi, Allah berbicara pada mereka dalam mimpi dan ia melarang mereka kembali pada Herodes. Herodes ingin membunuh Yesus dan orang-orang majus pulang ke negara mereka lewat jalan lain.","ac297",29);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 30
-                    kisahAlkitab = new KisahAlkitab("c305","Yesus Kecil\n Lukas 2:40-52","slide1",30);
+                    kisahAlkitab = new KisahAlkitab("c305","Yesus Kecil\n Lukas 2:40-52","jc30",30);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c301","Yesus mulai besar dan Ia menjadi lebih kuat dan lebih pintar karena Allah selalu menyertai-Nya.","ac301",30);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -631,7 +633,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 31
-                    kisahAlkitab = new KisahAlkitab("c313","Yohanes Membaptis Yesus\n Matius 3 : 13-17","slide1",31);
+                    kisahAlkitab = new KisahAlkitab("c313","Yohanes Membaptis Yesus\n Matius 3 : 13-17","jc31",31);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c311","Sekian tahun kemudian Yohanes pembaptis sedang berkhotbah di padang gurun dan Yesus pun datang untuk menemui Yohanes di sungai Yordan.","ac311",31);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -643,7 +645,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 32
-                    kisahAlkitab = new KisahAlkitab("c322","Yesus mengajar Orang Banyak\n Matius 5-7","slide1",32);
+                    kisahAlkitab = new KisahAlkitab("c322","Yesus mengajar Orang Banyak\n Matius 5-7","jc32",32);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c321","Ketika umur Yesus sekitar tiga puluh tahun Ia mulai mengajar orang banyak yang mengikuti Dia dan mereka juga mendengarkan Yesus berbicara. Pada suatu hari Yesus pergi ke lereng bukit untuk mengajar banyak orang tentang Allah.","ac321",32);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -655,7 +657,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 33
-                    kisahAlkitab = new KisahAlkitab("c334","Mujizat Yesus yang pertama\n Matius 5-7","slide1",33);
+                    kisahAlkitab = new KisahAlkitab("c334","Mujizat Yesus yang pertama\n Yohanes 2:1-12","jc33",33);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c331","Yesus dan murid-murid-Nya pergi ke pesta perkawinan pesta itu berada di kota kana di daerah yang bernama Galilea,ibu Yesus juga berada disana.","ac331",33);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -669,7 +671,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 34
-                    kisahAlkitab = new KisahAlkitab("c344","Yesus memilih dua belas murid\n Matius 5-7","slide1",34);
+                    kisahAlkitab = new KisahAlkitab("c344","Yesus memilih dua belas murid\n Markus 3:13-19","jc34",34);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c341","Yesus memilih dua belas orang untuk menjadikan mereka pembantu istimewa-Nya dan mereka disebut para rasul atau murid-murid Yesus.Yesus ingin keduabelas orang ini selalu bersamanya kapanpun.","ac341",34);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -681,7 +683,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 35
-                    kisahAlkitab = new KisahAlkitab("c355","Bekal seorang Anak\n Matius 5-7","slide1",35);
+                    kisahAlkitab = new KisahAlkitab("c355","Bekal seorang Anak\n Yohanes 6:1-15","jc35",35);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c351","Suatu hari dimana orang banyak datang untuk mendengarkan Yesus berkhotbah dan Yesus berkata pada filipus “ Dimana kita bisa membeli roti untuk memberi makan semua orang ini?” filipus pun menjawab”Kita harus menghabiskan upah satu bulan untuk membeli itu”","ac351",35);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -697,7 +699,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 36
-                    kisahAlkitab = new KisahAlkitab("c364","Yesus berjalan diatas air.\n Matius 5-7","slide1",36);
+                    kisahAlkitab = new KisahAlkitab("c364","Yesus berjalan diatas air.\n Matius 14:22-33","jc36",36);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c361","Yesus menyuruh murid-muridnya untuk pergi naik perahu dan ia menyuruh mereka pergi terlebih dahulu untuk menyebrangi danau.Yesus tinggal disana untuk mengucapkan selamat jalan pada orang banyak lalu ia naik ke bukit sendirian untuk berdoa.","ac361",36);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -713,7 +715,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 37
-                    kisahAlkitab = new KisahAlkitab("c373","Orang buta bisa melihat\n Matius 5-7","slide1",37);
+                    kisahAlkitab = new KisahAlkitab("c373","Orang buta bisa melihat\n Yohanes 9:1-12","jc37",37);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c371","Yesus dan murid Yesus sedang berjalan-jalan dan melihat seorang buta dan orang itu sudah buta sejak lahir.Yesus berkata bahwa orang itu buta supaya Allah bisa menunjukan betapa berkuasanya ia.","ac371",37);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -725,7 +727,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 38
-                    kisahAlkitab = new KisahAlkitab("c384","Orang samaria yang baik hati.\n Matius 5-7","slide1",38);
+                    kisahAlkitab = new KisahAlkitab("c384","Orang samaria yang baik hati.\n Lukas 10:25-37","jc38",38);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c381","Yesus menceritakan kisah tentang sesama manusia yang baik ini pada seorang ahli taurat.ahli taurat adalah orang orang yang mempelajari hukum Allah,suatu hari seorang Yahudi sedang dalam perjalanan dari Yerusalem ke Yerikho namun ada beberapa perampok yang menyerangnya mereka menyobek jubahnya dan memukuli dai kemudian mereka meninggalkan terbaring di jalanan dan ia sudah hampir mati.","ac381",38);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -741,7 +743,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 39
-                    kisahAlkitab = new KisahAlkitab("c393","Anak yang hilang \n Matius 5-7","slide1",39);
+                    kisahAlkitab = new KisahAlkitab("c393","Anak yang hilang \n Lukas 15:11-24","jc39",39);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c391","Yesus bercerita pada orang-orang farisi dan ahli taurat sebuah kisah tentang seorang bapak yang mempunyai dua anak laki-laki dan anak bungsu meminta bagian warisannya dan pergi dari rumah.","ac391",39);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -755,7 +757,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 40
-                    kisahAlkitab = new KisahAlkitab("c403","Persembahan Janda miskin \n Matius 5-7","slide1",40);
+                    kisahAlkitab = new KisahAlkitab("c403","Persembahan Janda miskin \n Markus 12:41-44","jc40",40);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c401","Yesus sedang duduk dekat peti uang di bait Allah dan ia sedang mengamati orang yang memaasukan persembahannya untuk Tuhan.","ac401",40);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -767,7 +769,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 41
-                    kisahAlkitab = new KisahAlkitab("c412","Perjamuan terakhir  \n Matius 5-7","slide1",41);
+                    kisahAlkitab = new KisahAlkitab("c412","Perjamuan terakhir  \n Lukas 22:7-20; 1 Korintus 11:23-26","jc41",41);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c411","Setiap tahun umat Allah makan jamuan paskha,jamuan itu membantu mereka mengingat bagaimana Allah menyelamatkan mereka dari perbudakan di Mesir,Yesus sudah menyuruh Petrus dan Yohanes menyiapkan jamuan Paskha.Mereka akan makan bersama di lantai atas sebuah rumah.","ac411",41);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -781,7 +783,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 42
-                    kisahAlkitab = new KisahAlkitab("c423","Yesus ditangkap \n Matius 5-7","slide1",42);
+                    kisahAlkitab = new KisahAlkitab("c423","Yesus ditangkap \n Markus 14:32-50","jc42",42);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c421","Setelah perjamuan terakhir,Yesus dan murid-muridnya pergi ke bukit zaitun dan ini adalah bukit yang banyak ditumbuhi pohon zaitun,Yesus pergi lebih jauh sendirian dan berdoa tiga kali pada saat itu murid-muridnya ketiduran.","ac421",42);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -793,7 +795,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 43
-                    kisahAlkitab = new KisahAlkitab("c434","Yesus Mati\n Matius 5-7","slide1",43);
+                    kisahAlkitab = new KisahAlkitab("c434","Yesus Mati\n Matius 27:32-61; Markus 15:16-47","jc43",43);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c431","Yesus dibawa ke pengadilan karena orang orang berbohong tentang dia pada hakim.Yesus dinyatakan bersalah dan mereka memutuskan Yesus harus mati disalib","ac4311",43);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -811,7 +813,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 44
-                    kisahAlkitab = new KisahAlkitab("c444","Yesus Hidup Kembali \n Matius 5-7","slide1",44);
+                    kisahAlkitab = new KisahAlkitab("c444","Yesus Hidup Kembali \n Matius 28:1-10","jc44",44);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c441","Hari minggu pagi-pagi sekali dua wanita pergi ke kuburan Yesus dan mereka adalah maria magdalena dan wanita lain bernama maria","ac441",44);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -828,7 +830,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
 
 
                     //cerita 45
-                    kisahAlkitab = new KisahAlkitab("c453","Yesus kembali ke Sorga. \n Matius 5-7","slide1",45);
+                    kisahAlkitab = new KisahAlkitab("c453","Yesus kembali ke Sorga. \n Kisah Para Rasul 1:6-12","jc45",45);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c451","Yesus dan murid-muridnya sedang bersama-sama,mereka berada di bukit zaitun dan sedikit di luar kota Yerusalem.Yesus tahu sudah waktu baginya untuk kembali ke sorga.ia berkata “Roh kudus akan turun atas kamu dan kamu akan menerima kuasa istimewa.","ac451",45);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -840,7 +842,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 46
-                    kisahAlkitab = new KisahAlkitab("c463","Roh kudus datang\n Matius 5-7","slide1",46);
+                    kisahAlkitab = new KisahAlkitab("c463","Roh kudus datang\n Kisah Para Rasul 2","jc46",46);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c461","Ketika Yesus kembali ke sorga ia berjanji kepada murid-muridnya bahwa Roh kudus akan turun untuk membantu mereka dan kira-kira lima puluh hari kemudian pada hari pentakosta murid-murid Yesus berkumpul semua.","ac461",46);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -854,7 +856,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 47
-                    kisahAlkitab = new KisahAlkitab("c475","Pengemis Di gerbang Indah\n Matius 5-7","slide1",47);
+                    kisahAlkitab = new KisahAlkitab("c475","Pengemis Di gerbang Indah\n Kisah Para Rasul 3:1-10","jc47",47);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c471","Suatu hari Petrus dan Yohanes pergi ke Bait Allah,waktu itu jam tiga sore itu adalah waktu untuk doa harian di bait Allah.","ac471",47);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -870,7 +872,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 48
-                    kisahAlkitab = new KisahAlkitab("c482","Saulus Bertemu Yesus\n Matius 5-7","slide1",48);
+                    kisahAlkitab = new KisahAlkitab("c482","Saulus Bertemu Yesus\n Kisah Para Rasul 9:1-22","jc48",48);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c481","Saulus sedang dalam perjalanan dari Yerusalem ke Damaskus,ia pergi kesana untuk memasukan pengikut Yesus ke penjara dan ia membawa pasukan prajurit bersamanya.","ac481",48);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -882,7 +884,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 49
-                    kisahAlkitab = new KisahAlkitab("c494","Dorkas Hidup Kembali	\n Matius 5-7","slide1",49);
+                    kisahAlkitab = new KisahAlkitab("c494","Dorkas Hidup Kembali \n Kisah Para Rasul 9:36-42","jc49",49);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c491","Di kota Ype ada seorang wanita bernama Dorkas,ia adalah pengikut  Yesus dan ia selalu berbuat baik dan menolong orang miskin.suatu hari Dorkas sakit dan mati,teman-temannya meletakkannya ia di ruang atas.","ac491",49);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -896,7 +898,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 50
-                    kisahAlkitab = new KisahAlkitab("c504","Paulus mengabarkan Injil.\n Matius 5-7","slide1",50);
+                    kisahAlkitab = new KisahAlkitab("c504","Paulus mengabarkan Injil.\n Kisah Para Rasul 13:1-3; 14:8-15","jc50",50);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c501","Di Gereja antiokhia banyak nabi dan guru,disuatu hari Roh kudus datang kepada mereka lalu Roh Kudus berkata”Berikan barnabas  dan Paulus padaku,aku punya tugas khusu untuk mereka”seluruh jemaat berdoa dan berpuasa beberapa waktu dan pmereka mendoakan barnabas dan petrus dan memberikan mereka pergi.","ac501",50);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
@@ -914,7 +916,7 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 51
-                    kisahAlkitab = new KisahAlkitab("c516","Yesus akan Datang kembali.\n Matius 5-7","slide1",51);
+                    kisahAlkitab = new KisahAlkitab("c516","Yesus akan Datang kembali.\n Wahyu 1:1-3; 21:1-22:21","jc51",51);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                     kisahAlkitab = new KisahAlkitab("c511","Yohanes adalah salah satu murid Yesus,suatu hari Yesus mengirim seorang malaikat kepada Yohanes lalu ia memberi Yohanes pesan yang indah dan ia menyuruh Yohanes menulis pesan itu dalam sebuah Kitab.malaikat itu berkata”Orang yang membaca firman Tuhan dan melakukannya akan berbahagia","ac511",51);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
