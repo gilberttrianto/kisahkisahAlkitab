@@ -914,17 +914,19 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 51
-                    kisahAlkitab = new KisahAlkitab("c511","Yesus akan Datang kembali.\n Matius 5-7","slide1",51);
+                    kisahAlkitab = new KisahAlkitab("c516","Yesus akan Datang kembali.\n Matius 5-7","slide1",51);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c512","Yohanes adalah salah satu murid Yesus,suatu hari Yesus mengirim seorang malaikat kepada Yohanes lalu ia memberi Yohanes pesan yang indah dan ia menyuruh Yohanes menulis pesan itu dalam sebuah Kitab.malaikat itu berkata”Orang yang membaca firman Tuhan dan melakukannya akan berbahagia","ac511",51);
+                    kisahAlkitab = new KisahAlkitab("c511","Yohanes adalah salah satu murid Yesus,suatu hari Yesus mengirim seorang malaikat kepada Yohanes lalu ia memberi Yohanes pesan yang indah dan ia menyuruh Yohanes menulis pesan itu dalam sebuah Kitab.malaikat itu berkata”Orang yang membaca firman Tuhan dan melakukannya akan berbahagia","ac511",51);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c513","Malaikat menunjukan banyak hal-hal indah pada Yohanes,satu hal yang dilihat Yohanes adalah kota mulia yang sangat indah.kota itu terbuat dari emas murni,dan kota itu berdiri di atas permata seperti safir zamrud dan topaz","ac512",51);
+                    kisahAlkitab = new KisahAlkitab("c512","Malaikat menunjukan banyak hal-hal indah pada Yohanes,satu hal yang dilihat Yohanes adalah kota mulia yang sangat indah.kota itu terbuat dari emas murni,dan kota itu berdiri di atas permata seperti safir zamrud dan topaz","ac512",51);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c514","Kota itu mempunyai dua belas gerbang yang dimana tiap gerbang terbuat dari sebuah mutiara bessara dan jalanan kota itu terbuat dari emas murni,tetapi emas itu jernih seperti kaca.","ac513",51);
+                    kisahAlkitab = new KisahAlkitab("c513","Kota itu mempunyai dua belas gerbang yang dimana tiap gerbang terbuat dari sebuah mutiara bessara dan jalanan kota itu terbuat dari emas murni,tetapi emas itu jernih seperti kaca.","ac513",51);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c515","Tidak perlu matahari atau bulan di kota itu,kemuliaan Tuhan sangat terang sampai tidak pernah ada malam di sana.","ac514",51);
+                    kisahAlkitab = new KisahAlkitab("c514","Tidak perlu matahari atau bulan di kota itu,kemuliaan Tuhan sangat terang sampai tidak pernah ada malam di sana.","ac514",51);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c516","Lalu Yesus berkata”Dengarkan,Aku akan segera datang kembali,para pengikutku akan masuk ke kota mulia ini.mereka akan minum air kehidupan dan mereka akan makan dari pohon kehidupan dan mereka akan tinggal disini selamanya” dan Yohanes berkata”Amin….Datanglah,Tuhan Yesus.","ac515",51);
+                    kisahAlkitab = new KisahAlkitab("c515","Sungai yang jernih mengalir dari tahta Allah ditengah jalanan,sungai itu sebening kristal dan pohon kehidupan ada di kedua sisi sungai,ada dua belas benih buah di pohon itu.","ac515",51);
+                    kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
+                    kisahAlkitab = new KisahAlkitab("c516","Lalu Yesus berkata”Dengarkan,Aku akan segera datang kembali,para pengikutku akan masuk ke kota mulia ini.mereka akan minum air kehidupan dan mereka akan makan dari pohon kehidupan dan mereka akan tinggal disini selamanya” dan Yohanes berkata”Amin….Datanglah,Tuhan Yesus.","ac516",51);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
                 }
             });
