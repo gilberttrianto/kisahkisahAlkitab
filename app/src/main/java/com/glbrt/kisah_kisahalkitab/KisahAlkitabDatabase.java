@@ -797,19 +797,19 @@ public abstract  class KisahAlkitabDatabase extends RoomDatabase {
                     //cerita 43
                     kisahAlkitab = new KisahAlkitab("c434","Yesus Mati\n Matius 27:32-61; Markus 15:16-47","jc43",43);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c431","Yesus dibawa ke pengadilan karena orang orang berbohong tentang dia pada hakim.Yesus dinyatakan bersalah dan mereka memutuskan Yesus harus mati disalib","ac4311",43);
+                    kisahAlkitab = new KisahAlkitab("c431","Yesus dibawa ke pengadilan karena orang orang berbohong tentang dia pada hakim.Yesus dinyatakan bersalah dan mereka memutuskan Yesus harus mati disalib","ac431",43);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c432","Pada hari Jumat para prajurit memukuli Yesus,ia sangat lemah dan ia tidak bisa membawa salib kayu yang berat ke tempat dimana mereka akan menyalibkan dia.para prajurit memaksa seorang bernama simeon untuk membawa salib Yesus.","ac4312",43);
+                    kisahAlkitab = new KisahAlkitab("c432","Pada hari Jumat para prajurit memukuli Yesus,ia sangat lemah dan ia tidak bisa membawa salib kayu yang berat ke tempat dimana mereka akan menyalibkan dia.para prajurit memaksa seorang bernama simeon untuk membawa salib Yesus.","ac432",43);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c433","Para prajurit membawa Yesus ke tempat yang disebut Golgota.ini adlaah sebuah bukit di luar kota Yerusalem dan mereka memaku Yesus ke salib lalu para prajurit mengundi pakaian Yesus pada saat itu jam sembilan pagi.","ac4313",43);
+                    kisahAlkitab = new KisahAlkitab("c433","Para prajurit membawa Yesus ke tempat yang disebut Golgota.ini adlaah sebuah bukit di luar kota Yerusalem dan mereka memaku Yesus ke salib lalu para prajurit mengundi pakaian Yesus pada saat itu jam sembilan pagi.","ac433",43);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c434","Sebuah tanda dipaku di salib Yesus,Tulisan yang berbunyi”Raja orang Yahudi” dua perampok juga dipaku di salib dan orang orang yang lewat hanya mengatakan hal-hal yang jahat kepada Yesus”Selamatkanlah Dirimu Sendiri dan turun dari salib itu kalau kau memang anak Allah”.","ac4314",43);
+                    kisahAlkitab = new KisahAlkitab("c434","Sebuah tanda dipaku di salib Yesus,Tulisan yang berbunyi”Raja orang Yahudi” dua perampok juga dipaku di salib dan orang orang yang lewat hanya mengatakan hal-hal yang jahat kepada Yesus”Selamatkanlah Dirimu Sendiri dan turun dari salib itu kalau kau memang anak Allah”.","ac434",43);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c435","Tepat tengah hari,seluruh daerah itu menjadi gelap dengan berlangsung selama tiga jam.dan pada jam 3 sore Yesus mati demi untuk menebus seluruh dosa Dunia.","ac4315",43);
+                    kisahAlkitab = new KisahAlkitab("c435","Tepat tengah hari,seluruh daerah itu menjadi gelap dengan berlangsung selama tiga jam.dan pada jam 3 sore Yesus mati demi untuk menebus seluruh dosa Dunia.","ac435",43);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c436","Ketika Yesus mati,tirai besar di bait Allah robek menjadi dua bagian dan tirai itu robek dari atas sampai bawah.ada gempa bumi dan batu-batu besar pecah,kuburan-kuburan terbuka dan orang-orang mati hidup kembali.para prajurit yang menjaga Yesus berkata”ia benar-benar Anak Allah”.","ac4316",43);
+                    kisahAlkitab = new KisahAlkitab("c436","Ketika Yesus mati,tirai besar di bait Allah robek menjadi dua bagian dan tirai itu robek dari atas sampai bawah.ada gempa bumi dan batu-batu besar pecah,kuburan-kuburan terbuka dan orang-orang mati hidup kembali.para prajurit yang menjaga Yesus berkata”ia benar-benar Anak Allah”.","ac436",43);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
-                    kisahAlkitab = new KisahAlkitab("c437","Hari Jum’at sore,Yesus dikubur dan ada seorang pria yang bernama Yusuf menguburkan Yesus di kuburan baru miliknya,sebuah batu besar dipasang di mulut goa tempat mengubur Yesus dan Yesus sudah mati para pengikutnya sangat sedih.","ac4317",43);
+                    kisahAlkitab = new KisahAlkitab("c437","Hari Jum’at sore,Yesus dikubur dan ada seorang pria yang bernama Yusuf menguburkan Yesus di kuburan baru miliknya,sebuah batu besar dipasang di mulut goa tempat mengubur Yesus dan Yesus sudah mati para pengikutnya sangat sedih.","ac437",43);
                     kisahAlkitabDao.insertKisahAlkitab(kisahAlkitab);
 
                     //cerita 44
