@@ -7,9 +7,9 @@
     tools:context=".activities.MainActivity">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/home_page_and" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/home_page_and"/>
 
     <Button
         android:id="@+id/btn_lanjutkan"
@@ -18,7 +18,7 @@
         android:layout_centerInParent="true"
         android:backgroundTint="#F3DB67"
         android:text="Lanjutkan"
-        android:textStyle="bold" />
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/btn_menu_cerita"
@@ -29,7 +29,5 @@
         android:text="Menu Cerita"
         android:textStyle="bold"
         android:backgroundTint="#FDA77F"/>
-
-
 
 </RelativeLayout>
